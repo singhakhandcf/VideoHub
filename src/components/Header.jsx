@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   Drawer,
-  DrawerBody,
   DrawerHeader,
   DrawerOverlay,
   DrawerContent,
@@ -13,7 +12,6 @@ import {
 } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
 import { BiMenuAltLeft } from 'react-icons/bi';
-import Videos from './Videos';
 
 const Header = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
